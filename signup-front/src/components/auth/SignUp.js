@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
-// import { Link } from "react-router-dom";
 
 class SignUp extends React.Component {
   constructor() {
@@ -13,26 +12,8 @@ class SignUp extends React.Component {
       password2: "",
       errors: {},
     };
-    // this.changeFullName = this.changeFullName.bind(this);
-    // this.changeEmail = this.changeEmail.bind(this);
-    // this.changePassword = this.changePassword.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
   }
-  // changeFullName(event) {
-  //   this.setState({
-  //     name: event.target.value,
-  //   });
-  // }
-  // changeEmail(event) {
-  //   this.setState({
-  //     email: event.target.value,
-  //   });
-  // }
-  // changePassword(event) {
-  //   this.setState({
-  //     password: event.target.value,
-  //   });
-  // }
 
   onChange = (e) => {
     this.setState({ [e.target.id]: e.target.value });
