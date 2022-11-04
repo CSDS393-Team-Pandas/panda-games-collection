@@ -20,9 +20,6 @@
   },
   "homepage": "https://github.com/CSDS393-Team-Pandas/Panda-Games-Collection#readme",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3",
     "axios": "^1.1.3",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.1",
@@ -35,8 +32,6 @@
     "is-empty": "^1.2.0",
     "mongoose": "^6.7.1",
     "nodemon": "^2.0.20",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
     "react-scripts": "^5.0.1",
     "tar": "^6.1.12",
