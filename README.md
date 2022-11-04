@@ -1,5 +1,5 @@
 # Panda Games Collection
-Software Engineering Project
-Minh signup branch test
-My test from shiro
-Alice test
+v1.0
+- sign up page
+- simple home page with routes to other unbuilt pages
+- directory structures done
