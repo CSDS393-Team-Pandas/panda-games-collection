@@ -1,5 +1,5 @@
 # Panda Games Collection
-v1.0
+v0.1
 - sign up page
 - simple home page with routes to other unbuilt pages
 - directory structures done
