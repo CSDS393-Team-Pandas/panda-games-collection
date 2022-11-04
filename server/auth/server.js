@@ -6,8 +6,9 @@ const cors = require('cors')
 const passport = require("passport/lib");
 const users = require("./routes/api/users");
 const bodyParser = require("body-parser");
+const dotenv = require("dotenv");
 
-require('dotenv').config();
+require('dotenv').config({ path: './server/auth/.env' });
 
 // Connect to MongoDB
 mongoose

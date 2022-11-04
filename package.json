@@ -2,12 +2,12 @@
   "name": "panda-games-collection",
   "version": "1.0.0",
   "description": "Software Engineering Project\r Minh signup branch test\r My test from shiro\r Alice test",
-  "main": "./src/index.js",
+  "main": "./server/auth/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
-    "start:server": "nodemon server/server.js",
-    "start:client": "./scripts/watch-dev.sh"
+    "start:server": "nodemon server/auth/server.js",
+    "start:client": "react-scripts start"
   },
   "repository": {
     "type": "git",
