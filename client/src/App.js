@@ -3,6 +3,7 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 // import axios from "axios";
 import SignUp from "./components/auth/SignUp";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./components/auth/Home";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
         <Route path="signup" element={<SignUp />} />
+        <Route path="home" element={<Home />} />
         </Route>
       </Routes>
     </div>
@@ -26,7 +28,7 @@ function Layout() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
           </li>
           <li>
             <Link to="/signup">Sign Up</Link>
@@ -49,6 +51,7 @@ function Layout() {
     </div>
   );
 }
+
 
 // function About() {
 //   return <h2>About</h2>;
