@@ -1,8 +1,10 @@
 import * as React from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 // import axios from "axios";
-import SignUp from "./components/auth/SignUp";
 import "bootstrap/dist/css/bootstrap.min.css";
+import SignUp from "./components/auth/SignUp";
+import Home from "./components/auth/Home";
+import Profile from "./components/auth/Profile";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
         <Route path="signup" element={<SignUp />} />
+        <Route path="/" element={<Home />} />
+        <Route path="profile" element={<Profile />} />
         </Route>
       </Routes>
     </div>
@@ -35,6 +39,9 @@ function Layout() {
             <Link to="/login">Log In</Link>
           </li>
           <li>
+            <Link to="/profile">Profile Page</Link>
+          </li>
+          <li>
             <Link to="/nothing-here">Nothing Here</Link>
           </li>
         </ul>
@@ -49,6 +56,7 @@ function Layout() {
     </div>
   );
 }
+
 
 // function About() {
 //   return <h2>About</h2>;
