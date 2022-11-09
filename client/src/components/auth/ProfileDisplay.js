@@ -15,11 +15,11 @@ const ProfileDisplay = () => {
                   <h4 class="text-right">Profile Settings</h4>
               </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-20">
               <div class="card mb-3">
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-10">
                       <h6 class="mb-0">Full Name</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
@@ -29,11 +29,11 @@ const ProfileDisplay = () => {
                 </div>
                 </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-20">
               <div class="card mb-3">
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-10">
                       <h6 class="mb-0">Email ID</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
@@ -43,15 +43,15 @@ const ProfileDisplay = () => {
                 </div>
                 </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-20">
               <div class="card mb-3">
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-10">
                       <h6 class="mb-0">Game Perferences</h6>
                     </div>
-                    <div class="col-sm-9 text-secondary">
-                      Kenneth Valdez
+                    <div class="col-sm-10 text-secondary">
+                      Here should be a select box from the database
                     </div>
                   </div>
                 </div>
