@@ -4,7 +4,9 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import SignUp from "./components/auth/SignUp";
 import Home from "./components/auth/Home";
-import Profile from "./components/auth/Profile";
+import ProfileEdit from "./components/auth/ProfileEdit";
+import ProfileDisplay from "./components/auth/ProfileDisplay";
+import Error from "./components/auth/Error";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         <Route path="/" element={<Layout />}>
         <Route path="signup" element={<SignUp />} />
         <Route path="/" element={<Home />} />
-        <Route path="profile" element={<Profile />} />
+        <Route path="profile" element={<ProfileDisplay />} />
+        <Route path="profileEdit" element={<ProfileEdit />} />
+        <Route path="*" element={<Error />} />
         </Route>
       </Routes>
     </div>
