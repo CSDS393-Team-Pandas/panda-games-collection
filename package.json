@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
     "start:server": "nodemon server/auth/server.js",
-    "start:client": "cd client & react-scripts start" 
+    "start:client": "cd client & react-scripts start"
   },
   "repository": {
     "type": "git",
@@ -30,8 +30,10 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "is-empty": "^1.2.0",
+    "mdbreact": "^5.2.0",
     "mongoose": "^6.7.1",
     "nodemon": "^2.0.20",
+    "react-bootstrap": "^2.6.0",
     "react-router-dom": "^6.4.3",
     "react-scripts": "^5.0.1",
     "tar": "^6.1.12",
