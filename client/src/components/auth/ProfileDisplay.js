@@ -14,19 +14,49 @@ const ProfileDisplay = () => {
               <div class="d-flex justify-content-between align-items-center mb-3">
                   <h4 class="text-right">Profile Settings</h4>
               </div>
-              <div class="row mt-2">
-                  <div class="col-md-12"><label class="labels">Full Name</label></div>
-              </div>
-              <div class="row mt-3">
-                  <div class="col-md-12">
-                      <label class="labels">Email ID</label></div>
-              </div>
-              <div class="row mt-3">
-                  <div class="col-md-12">
-                      <label class="labels">Game Perferences</label>
-                  </div>
-              </div>
           </div>
+          <div class="col-md-8">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Full Name</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      Aaabsn
+                    </div>
+                  </div>
+                </div>
+                </div>
+        </div>
+        <div class="col-md-8">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Email ID</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      abc@case.com
+                    </div>
+                  </div>
+                </div>
+                </div>
+        </div>
+        <div class="col-md-8">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Game Perferences</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      Kenneth Valdez
+                    </div>
+                  </div>
+                </div>
+                </div>
+        </div>
               <div class="mt-5 text-center">
                  <Link to='/ProfileEdit' className="btn">
                         Edit
